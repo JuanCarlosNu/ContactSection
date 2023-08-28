@@ -121,3 +121,10 @@ padding: 10px 10px;
 .contact-form button:hover {
     background-color: #0056b3;
 }
+.google-maps iframe{
+        width: 90%;
+        height:350px;
+        margin-left: 100px;
+        
+
+}
