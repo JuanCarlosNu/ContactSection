@@ -31,6 +31,23 @@ body {
     background-color: #f5f5f5;
     border-radius: 5px;
 }
+.contactForm_name{
+    display: flex;
+   
+}
+#LastName{
+    margin-left: 20px;
+   
+}
+
+#email{
+    width: 650px;
+}
+#textArea{
+    width: 650px;
+}
+ 
+
 
 .contact-item p {
     margin: 20px;

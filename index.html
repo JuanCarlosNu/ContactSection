@@ -81,11 +81,13 @@
         </div>
         <div class="contact-form">
             <form id="contactForm">
-                <input type="text" name="firstName" placeholder="First Name" required>
-                <input type="text" name="lastName" placeholder="Last Name" required>
-                <input type="email" name="email" placeholder="E-mail" required>
-                <textarea name="message" placeholder="Message" rows="4" required></textarea>
-                <button type="submit">Send</button>
+                <div class="contactForm_name">
+                <input type="text" name="firstName" placeholder="First Name" required id="Name">
+                <input type="text" name="lastName" placeholder="Last Name" required id="LastName">
+              </div>
+                <input type="email" name="email" placeholder="E-mail" required id="email">
+                <textarea name="message" placeholder="Message" rows="4" required id="textArea"></textarea>
+                <button type="submit" id="button">Send</button>
             </form>
             
         </div>
