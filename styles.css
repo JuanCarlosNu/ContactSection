@@ -8,7 +8,12 @@ body {
 }
 .contact-section_header{
     margin-left: 120px;
+    font-size: 36px;
+    border-bottom: 2px solid black;
+    width: 90%;
+    height: 70px;
 }
+
 
 .contact-section {
     display: flex;
@@ -28,25 +33,41 @@ body {
     order: 2;
     flex: 1;
     padding: 20px;
-    background-color: #f5f5f5;
+  {/*  background-color: #f5f5f5;*/};
     border-radius: 5px;
 }
 .contactForm_name{
     display: flex;
+    padding: 10px 10px;
    
 }
 #LastName{
     margin-left: 20px;
    
 }
+.contractForm_email{
+padding: 10px 10px;
+}
 
 #email{
     width: 650px;
+    
+}
+.contactForm_textArea{
+    padding: 10px 10px;
 }
 #textArea{
     width: 650px;
 }
- 
+.contact-form_button{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+#button{
+    width: 130px;
+}
+
 
 
 .contact-item p {
@@ -74,16 +95,14 @@ body {
 
 
 
-.contact-form h2 {
-    margin-bottom: 20px;
-}
+
 
 .contact-form input,
 .contact-form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 3px;
 }
 
