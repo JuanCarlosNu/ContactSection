@@ -6,6 +6,9 @@ body {
 .contact{
     width: 100%;
 }
+.contact-section_header{
+    margin-left: 120px;
+}
 
 .contact-section {
     display: flex;
