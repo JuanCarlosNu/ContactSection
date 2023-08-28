@@ -15,6 +15,8 @@ body {
 }
 
 
+
+
 .contact-section {
     display: flex;
     align-items: center;
@@ -41,8 +43,12 @@ body {
     padding: 10px 10px;
    
 }
+#Name{
+    width: 205px;
+}
 #LastName{
     margin-left: 20px;
+    width: 205px;
    
 }
 .contractForm_email{
@@ -50,25 +56,21 @@ padding: 10px 10px;
 }
 
 #email{
-    width: 650px;
+    {/*width: 650px;*/  }
     
 }
 .contactForm_textArea{
     padding: 10px 10px;
 }
 #textArea{
-    width: 650px;
+    {/*width: 650px;*/}
 }
 .contact-form_button{
+    width: 460px;
     padding: 10px 10px;
     display: flex;
     justify-content: flex-end;
 }
-#button{
-    width: 130px;
-}
-
-
 
 .contact-item p {
     margin: 20px;
@@ -99,7 +101,7 @@ padding: 10px 10px;
 
 .contact-form input,
 .contact-form textarea {
-    width: 100%;
+    width: 450px;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid black;
@@ -107,6 +109,7 @@ padding: 10px 10px;
 }
 
 .contact-form button {
+    width: 130px;
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
